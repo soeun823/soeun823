@@ -17,7 +17,7 @@ jobs:
           node-version: '20'       # Node.js 20 명시
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1  # 최신 버전
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 토큰 설정
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # 토큰 설정
           USERNAME: soeun823  # 사용자 이름
       - name: Commit & Push
         run: |
