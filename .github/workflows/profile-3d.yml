@@ -20,10 +20,10 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1  # 최신 버전
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # 토큰 설정
-          USERNAME: soeun823  # 사용자 이름
+          USERNAME: s0meri  # 사용자 이름
       - name: Commit & Push
         run: |
-          git config user.name soeun823
+          git config user.name s0meri
           git config user.email bsoeun866@gmail.com
           git add -A .
           git commit -m "generated"
